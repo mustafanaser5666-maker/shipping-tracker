@@ -195,8 +195,7 @@ function ClientView({ shipments }) {
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
           <div style={{ width: 52, height: 52, background: "#fff", borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 26 }}>🚢</div>
           <div>
-            <div style={{ color: "#fff", fontWeight: 900, fontSize: 16 }}>البصرة اكسبريس جيت</div>
-            <div style={{ color: "#bfdbfe", fontWeight: 700, fontSize: 13 }}>PF3734</div>
+            <div style={{ color: "#fff", fontWeight: 900, fontSize: 16 }}>الراقي للشحن</div>
           </div>
         </div>
         <div style={{ display: "flex", gap: 14, fontSize: 20 }}>👤 🌐 🏠</div>
