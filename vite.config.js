@@ -19,10 +19,18 @@ export default defineConfig({
         dir: 'rtl',
         start_url: '/',
         icons: [
-          { src: 'icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
-          { src: 'icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'maskable' },
-          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
-          { src: 'icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' }
+          {
+            src: 'https://raw.githubusercontent.com/mustafanaser5666-maker/shipping-tracker/main/icon-192.png',
+            sizes: '192x192',
+            type: 'image/png',
+            purpose: 'any maskable'
+          },
+          {
+            src: 'https://raw.githubusercontent.com/mustafanaser5666-maker/shipping-tracker/main/icon-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any maskable'
+          }
         ]
       }
     })
