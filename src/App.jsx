@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const SUPABASE_URL = "https://zifkgtfwmzpsphdstsew.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InppZmtndGZ3bXpwc3BoZHN0c2V3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA5MTQ4MzAsImV4cCI6MjA5NjQ5MDgzMH0.QLE0PeHKHZma2PS9Blxu7MedxrsRFypmjLNpCtB1aP8";
-const TELEGRAM_BOT_TOKEN = "8805440426:AAFvjQPN3D1eBg-V1CGY4IgmIz9afGNvK4I";
+const TELEGRAM_BOT_TOKEN = "8939404362:AAHvQd3Bx2--SYrk3HNwstMMuto2nssHn1s";
 const ADMIN_CHAT_ID = "1312627565";
 const ADMIN_CODE = "admin123";
 
