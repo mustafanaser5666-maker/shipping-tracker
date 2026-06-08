@@ -470,7 +470,7 @@ function SettingsView({ config, setConfig, showToast }) {
             value={local[f.key] === `YOUR_${f.key}_HERE` ? "" : local[f.key]}
             onChange={(e) => setLocal({ ...local, [f.key]: e.target.value })}
             placeholder={f.placeholder}
-            style={{ width: "100%", border: "1.5px solid #e5e7eb", borderRadius: 10, padding: "10px 14px", fontSize: 14, fontFamily: "monospace", outline: "none", boxSizing: "border-box" }}
+            dir="ltr" style={{ width: "100%", border: "1.5px solid #e5e7eb", borderRadius: 10, padding: "10px 14px", fontSize: 14, fontFamily: "monospace", outline: "none", boxSizing: "border-box", direction: "ltr", textAlign: "left" }}
           />
         </div>
       ))}
