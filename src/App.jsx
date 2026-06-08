@@ -4,13 +4,13 @@ import { useState } from "react";
 //  ضع بياناتك هنا بعد إنشاء البوت
 // ═══════════════════════════════════════════
 const TELEGRAM_CONFIG = {
-  BOT_TOKEN: "YOUR_BOT_TOKEN_HERE",       // من @BotFather
-  ADMIN_CHAT_ID: "YOUR_ADMIN_CHAT_ID",    // Chat ID الخاص بك
+  BOT_TOKEN: "8805440426:AAFvjQPN3D1eBg-V1CGY4IgmIz9afGNvK4I",
+  ADMIN_CHAT_ID: "1312627565",
 };
 
 async function sendTelegramMessage(chatId, message) {
   if (
-    TELEGRAM_CONFIG.BOT_TOKEN === "YOUR_BOT_TOKEN_HERE" ||
+    TELEGRAM_CONFIG.BOT_TOKEN === "" ||
     !chatId
   ) return { ok: false, demo: true };
 
